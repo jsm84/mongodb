@@ -53,5 +53,7 @@ Author Information
 ------------------
 
 Josh Manning (@jsm84)
-Red Hat Partner Connect: https://connect.redhat.com
-GitHub: https://github.com/RHC4TP/operators/blob/examples/ansible_roles/mongodb
+
+*Red Hat Partner Connect*: https://connect.redhat.com
+
+*GitHub*: https://github.com/jsm84/mongodb-k8s-ansible-role
