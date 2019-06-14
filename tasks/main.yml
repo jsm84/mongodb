@@ -1,6 +1,5 @@
 ---
 # tasks file for mongodb
-
 - name: create mongodb deployment
   k8s:
     definition:
@@ -81,7 +80,6 @@
             terminationGracePeriodSeconds: 30
             dnsPolicy: ClusterFirst
             securityContext: {}
-
 - name: create mongodb service
   k8s:
     definition:
@@ -105,4 +103,3 @@
         sessionAffinity: None
       status:
         loadBalancer: {}
-
