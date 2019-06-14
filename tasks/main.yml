@@ -23,7 +23,7 @@
             name: mongodb
         template:
           metadata:
-            creationTimestamp: 
+            creationTimestamp:
             labels:
               name: mongodb
           spec:
@@ -90,7 +90,7 @@
       metadata:
         name: mongodb
         namespace: "{{ namespace }}"
-        creationTimestamp: 
+        creationTimestamp:
         labels:
           template: mongodb-ephemeral-template
       spec:
